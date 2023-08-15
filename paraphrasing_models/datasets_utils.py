@@ -154,12 +154,6 @@ class ParaphraseInferenceDataset(Dataset):
             }
         return batched_data
 
-def load_STSB_data():
-    data = []
-    test_dataset = load_dataset("shibing624/nli_zh", "STS-B", split="test")
-    for terms in test_dataset:
-        data.append((terms['sentence1'], terms['sentence2'], terms['label']))
-    return data
 
 import csv
 def load_paraphrase_data(file_name, split='train'):
@@ -178,14 +172,4 @@ def load_paraphrase_inference_data(file_name, split='train'):
         csv_reader = csv.reader(fp,delimiter= '\t')
         for row in csv_reader:
             data.append((row[0],row[2],row[3],row[1],row[4]))
-    return data
-
-def load_Weibo_data(file_name, split='train'):
-    num_labels = set()
-    data = []
-    with open(file_name, 'r') as fp:
-        for line in fp:
-            data.append((line,line))
-            if len(data) == 500000 :
-                break
     return data
