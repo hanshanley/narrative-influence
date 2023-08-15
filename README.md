@@ -1,1 +1,5 @@
-# narrative-influence
+# Narratives from Foreign Media Ecosystem in Chinese Social Media Discussions of the Russo-Ukraine War
+
+Authors: Hans W. A. Hanley, Yingdan Lu, Jennifer Pan
+
+Description:  Since the onset of the Russian invasion of Ukraine on February 24, 2022, millions of posts related to the war have been shared on the Chinese social media platform, Weibo. Discussions in these posts reflect varying degrees of narratives disseminated on Russian, Ukrainian, Chinese, and US news media. Utilizing several text-to-text large language embedding models to develop an automated multilingual system that recognizes the major narratives present within half a million Weibo conversations and traces these narratives to Chinese, Russian, Ukrainian, and Western media ecosystems, we find that the most prominent Ukraine War narratives on Chinese social media are sympathetic to Russia. Strikingly, the largest proportion of narratives on Chinese social media first appeared in the Russian media ecosystem, rather than the Chinese media ecosystem, suggesting that Russian media has a direct influence on the Chinese social media environment. 
