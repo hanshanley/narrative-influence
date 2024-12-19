@@ -12,6 +12,8 @@ We provide code to scrape and extract metadata for our list of URLs in the URLS 
 
 We first embedded (calculated vector representations) each of our Weibo passages into a shared embedding space, so that passages conveying similar content or ideas have high cosine similarity. To do this, we utilized a monolingual version of Mandarin-Chinese BERT trained on semantic similarity tasks (https://huggingface.co/shibing624/text2vec-base-chinese). We utilize the clustering algorithm provided in the clustering folder to identify different narratives setting the $\lamda$ parameter utilized for this algorithm to 0.90.
 
-## We th
+## Multilingual Paraphrasing
+
+To identify paraphrases between different languages, we initially utilize the MP-Net paraphrase transformer (https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) and subsequently utilize three trained models that utilize  Machine Translation (WMT-19) dataset of news commentary bitexts in Chinese and English, and in Chinese and Russian. We provide the architecture and weight for these models in the paraphrasing_model folder. 
 
 
