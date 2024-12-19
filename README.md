@@ -8,4 +8,8 @@ There is a widespread perception that China's digital censorship distances its p
 
 We provide code to scrape and extract metadata for our list of URLs in the URLS folder. We identified most of the URL data for each website from CC-MAIN-2023-06, CC-MAIN-2022-49, CC-MAIN-2022-40 CC-MAIN-2022-33, CC-MAIN-2022-27, CC-MAIN-2022-21, CC-MAIN-2022-05. To identify popular and influential Chinese, Russian, and Ukrainian news websites, we combined Amazon Alexa Popularity Ranking data  and Common Crawl's Domain rank datasets~\citep{Nagel2017} with website categorization data from Cloudflare.  Namely, we collected the set of most popular websites ranked in Amazon Alexa's top one million websites and Common Crawl's Domain Rank datasets from April 2022, which utilize the top-level domain of each country we were interested in. We then queried Cloudflare's Domain Intelligence API to collect the Cloudflare label for each domain and subsequently gathered domains labeled by Cloudflare as news-related. We collected the domain-registration data of each of the 10,000 domains to confirm that these websites were registered in the respective countries using whois in Python. 
 
+## Clustering and Identifying Weibo Narratives
+
+We first embedded (calculated vector representations) each of our Weibo passages into a shared embedding space, so that passages conveying similar content or ideas have high cosine similarity. To do this, we utilized a monolingual version of Mandarin-Chinese BERT trained on semantic similarity tasks (https://huggingface.co/shibing624/text2vec-base-chinese).
+
 
