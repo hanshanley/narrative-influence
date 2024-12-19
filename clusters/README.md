@@ -2,7 +2,7 @@
 
 This code is a retrofitted version of DP-Means clustering as released by Dineri et al. https://github.com/BGU-CS-VIL/pdc-dp-means/tree/main/paper_code but instead utilizes cosine similarity. This version utilized for clustering sentence embeddings removes the random initialization step.
 
-###  MiniBatch PDC-DP-Means via Cosine Similarity
+##  MiniBatch PDC-DP-Means via Cosine Similarity
 
 In order to install this, you must clone scikit-learn from: `https://github.com/scikit-learn/scikit-learn.git`.
 
