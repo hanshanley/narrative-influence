@@ -10,7 +10,7 @@ We provide code to scrape and extract metadata for our list of URLs in the URLS 
 
 ## Clustering and Identifying Weibo Narratives
 
-We first embedded (calculated vector representations) each of our Weibo passages into a shared embedding space, so that passages conveying similar content or ideas have high cosine similarity. To do this, we utilized a monolingual version of Mandarin-Chinese BERT trained on semantic similarity tasks (https://huggingface.co/shibing624/text2vec-base-chinese). We utilize the clustering algorithm provided in the clustering folder to identify different narratives setting the $\lamda$ parameter utilized for this algorithm to 0.90.
+We first embedded (calculated vector representations) each of our Weibo passages into a shared embedding space, so that passages conveying similar content or ideas have high cosine similarity. To do this, we utilized a monolingual version of Mandarin-Chinese BERT trained on semantic similarity tasks (https://huggingface.co/shibing624/text2vec-base-chinese). We utilize the clustering algorithm provided in the clustering folder to identify different narratives setting the λ parameter utilized for this algorithm to 0.90.
 
 ## Multilingual Paraphrasing
 
