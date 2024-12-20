@@ -2,7 +2,7 @@ cnn.com
 theatlantic.com
 yahoo.com
 newsweek.com
-go.com
+go.com/abcnews.go.com
 thehill.com
 businessinsider.com
 breitbart.com
