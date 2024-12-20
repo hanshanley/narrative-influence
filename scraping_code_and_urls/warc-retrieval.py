@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+
+''' 
+Slightly modified version of warc-retrieval.py from https://github.com/lxucs/commoncrawl-warc-retrieval. All
+credit for this warc-retrieval code goes to lxucs.
+
+'''
 from os import listdir, makedirs
 from os.path import join
 import json
