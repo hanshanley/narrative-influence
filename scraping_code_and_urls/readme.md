@@ -17,7 +17,7 @@ with open(file ,'rb') as stream:
 Similarly to utilizing the Newspaper3k or Newspaper4k library for downloading HTML content, you can subsequently extract article content from URLS using the following snippet of code.
 ```
 article = newspaper.Article(current_url)
-    article.set_html(dom_as_string)
-    article.download_state = 2
-    article.parse()
+article.set_html(dom_as_string)
+article.download_state = 2
+article.parse()
 ```
