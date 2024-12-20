@@ -1,5 +1,56 @@
-#!/usr/bin/env python
-# coding: utf-8
+"""
+common_crawl_indices.py
+
+Description:
+------------
+This script processes a list of domains to retrieve data from the Common Crawl indices. It uses a custom HTTP adapter to bind requests to a specific source IP address. 
+The fetched data is organized into a structured directory format, categorized by domains and Common Crawl index names. 
+Domains that have already been processed are logged to avoid redundant operations.
+
+Dependencies:
+-------------
+- `requests`: For making HTTP requests.
+- `publicsuffix2`: For extracting the base public suffix of a domain.
+- `argparse`: For parsing command-line arguments.
+- `os`, `time`, `json`, `random`: Standard Python libraries for file operations, timing, and randomness.
+
+Command-Line Arguments:
+-----------------------
+--ip : str
+    The source IP address to bind HTTP requests to.
+
+File/Folder Structure:
+----------------------
+1. Input Files:
+    - `path_to_domains_file_1.txt` : File containing a list of domains.
+    - `path_to_domains_file_2.txt` : Additional domain list.
+
+2. Output:
+    - **Data Directory**:
+        `/base_directory/DomainIndices/<domain>/<index>/prefix-<domain>-<index>`
+        - Example:
+          `DomainIndicies/example.com/CC-MAIN-2023-50/prefix-example.com-CC-MAIN-2023-50`
+          
+    - **Log File**:
+        `completed_domain_files.txt`
+        - Logs domains that have already been processed.
+
+How to Run:
+-----------
+Example usage:
+    python script_name.py --ip 192.168.1.10
+
+Steps:
+1. Replace input file paths with your actual domain list file paths.
+2. Adjust the base directory where fetched data will be stored.
+3. Specify the source IP using the `--ip` argument.
+
+Notes:
+------
+- The script uses a throttling mechanism (`time.sleep`) to avoid overwhelming the Common Crawl API servers.
+- Ensure the Public Suffix List (`publicsuffix2` library) is installed and up-to-date.
+- Logged domains allow the script to resume processing from where it stopped.
+"""
 
 import os
 import time
@@ -73,21 +124,20 @@ def deduplicate_domains(domains):
 if __name__ == "__main__":
     # Example files containing domains
     domain_files = [
-        '/mnt/projects/qanon_proj/RobustCrawl/additional_news_domains.txt',  # Example: 'path_to_domains_file_1.txt'
-        '/mnt/projects/qanon_proj/RobustCrawl/additional_news_domains-20240326.txt'  # Example: 'path_to_domains_file_2.txt'
+        'path_to_domains_file_1.txt',  # Example: 'path_to_domains_file_1.txt'
     ]
 
     # Load and deduplicate domains
     domains_to_process = deduplicate_domains(load_domains(domain_files))
 
-    # List of CommonCrawl indices
+    # Example List of CommonCrawl indices
     indices = [
         'CC-MAIN-2024-10', 'CC-MAIN-2023-50', 'CC-MAIN-2023-40', 'CC-MAIN-2023-23',
         'CC-MAIN-2023-14', 'CC-MAIN-2023-06', 'CC-MAIN-2022-49', 'CC-MAIN-2022-40'
     ]
 
     # Completed domains log file
-    completed_domains_file = 'completed_domain_gotten_new_american_interntional.txt'  
+    completed_domains_file = 'completed_domain_files.txt'  
     # Example: 'completed_log_file.txt'
     open(completed_domains_file, 'a+').close()  # Ensure file exists
 
@@ -108,7 +158,7 @@ if __name__ == "__main__":
 
         # Create base directory for domain data
         domain_dir = f'/mnt/projects/qanon_proj/MoreDomainIndices/{domain}'  
-        # Example: 'base_directory/MoreDomainIndices/example_domain'
+        # Example: 'base_directory/DomainIndices/example_domain'
         os.makedirs(domain_dir, exist_ok=True)
 
         for index in indices:
@@ -126,12 +176,12 @@ if __name__ == "__main__":
 
                 # Create index-specific directory
                 index_dir = f'{domain_dir}/{index}'  
-                # Example: 'base_directory/MoreDomainIndices/example_domain/CC-MAIN-2023-50'
+                # Example: 'base_directory/DomainIndices/example_domain/CC-MAIN-2023-50'
                 os.makedirs(index_dir, exist_ok=True)
 
                 # Write fetched data to file
                 output_file = f'{index_dir}/prefix-{domain}-{index}'  
-                # Example: 'base_directory/MoreDomainIndices/example_domain/CC-MAIN-2023-50/prefix-example_domain-CC-MAIN-2023-50'
+                # Example: 'base_directory/DomainIndices/example_domain/CC-MAIN-2023-50/prefix-example_domain-CC-MAIN-2023-50'
                 with open(output_file, 'w') as f:
                     for data in data_lines:
                         json.dump(data, f)
