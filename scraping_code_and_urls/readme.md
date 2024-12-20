@@ -21,3 +21,8 @@ article.set_html(dom_as_string)
 article.download_state = 2
 article.parse()
 ```
+
+Depending on the website you may have to specify the language of the website as follows.
+```
+article = newspaper.Article(current_url,language =lang)
+```
