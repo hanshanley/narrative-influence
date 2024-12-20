@@ -157,7 +157,7 @@ if __name__ == "__main__":
         print(f"Processing domain: {domain} using IP: {source_ip}")
 
         # Create base directory for domain data
-        domain_dir = f'/mnt/projects/qanon_proj/MoreDomainIndices/{domain}'  
+        domain_dir = f'DomainIndices/{domain}'  
         # Example: 'base_directory/DomainIndices/example_domain'
         os.makedirs(domain_dir, exist_ok=True)
 
