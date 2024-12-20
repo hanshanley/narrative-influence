@@ -1,8 +1,8 @@
 # URLs to scrape and Scraping code
 
-For this project, we initially used the Newspaper3k library to scrape some URLs and extract HTML from documents. We recommend that you utilize the Newspaper4k (https://github.com/AndyTheFactory/newspaper4k) library to scrape and extract article news data from our list of URLs.
+For this project, we initially used the Newspaper3k Python library (https://newspaper.readthedocs.io/en/latest/) to scrape some URLs and extract HTML from documents. We recommend that you utilize the Python Newspaper4k (https://github.com/AndyTheFactory/newspaper4k) library to scrape and extract article news data from our list of URLs.
 
-We utilize both the htmldate library (https://pypi.org/project/htmldate/) to extract out article data metadata. If htmldate fails, we utilize the date provided by the Newspaper library. 
+We utilize both the Python htmldate library (https://pypi.org/project/htmldate/) to extract article data metadata. If htmldate fails, we utilize the date provided by the Newspaper library. 
 
 We additionally provide code for extracting CommonCrawl data for the list of domains that we utilize in this project. To utilize CommonCrawl HTML rather than directly scraping each website, you must first utilize the `common_crawl_indices.py` file in order to get the indices of the WARC files that contain HTML. Secondly, after gathering the WARC index files, you can utilize `html_warc_from_common_crawl_indices.py` to download the WARC files from CommonCrawl. To extract the HTML from these files, you can utilize `warcio` library and  `warcio.archiveiterator import ArchiveIterator` as follows:
 
