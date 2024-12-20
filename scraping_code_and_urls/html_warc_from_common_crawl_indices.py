@@ -17,11 +17,11 @@ Command-Line Arguments:
 Output Structure:
 -----------------
 1. Indexed Data Directory:
-    - /mnt/projects/qanon_proj/UPDATED_FOREIGN_Index2/<domain>
+    - DomainIndices/<domain> ## Example
 2. HTML Output Directory:
-    - /mnt/projects/qanon_proj/UPDATED_FOREIGN_HTML_2/<domain>
+    - DomainHTML/<domain> ## Example
 3. Log File:
-    - finished_domains_updated_4.txt
+    - finished_domains.txt
 """
 
 import os
@@ -76,8 +76,8 @@ def process_domain(domain, source_ip):
     """
     Process a single domain: retrieve WARC data using an external script and save to output directories.
     """
-    base_input_dir = f'/mnt/projects/qanon_proj/UPDATED_FOREIGN_Index2/{domain}'
-    base_output_dir = f'/mnt/projects/qanon_proj/UPDATED_FOREIGN_HTML_2/{domain}'
+    base_input_dir = f'DomainIndices/{domain}'
+    base_output_dir = f'DomainHTML/{domain}'
 
     if not os.path.isdir(base_output_dir):
         os.makedirs(base_output_dir)  # Create output directory if it doesn't exist
@@ -89,7 +89,7 @@ def process_domain(domain, source_ip):
             try:
                 # Command to call the WARC retrieval script
                 bash_command = (
-                    f"python3 /mnt/projects/qanon_proj/commoncrawl-warc-retrieval/warc-retrieval.py "
+                    f"python3 warc-retrieval.py "
                     f"-p 1 --ip {source_ip} {input_folder} {base_output_dir}"
                 )
                 process = subprocess.Popen(bash_command.split(), stdout=subprocess.PIPE)
@@ -99,21 +99,17 @@ def process_domain(domain, source_ip):
 
 def main():
     # Paths to necessary files
-    indexed_domains_path = '/mnt/projects/qanon_proj/UPDATED_FOREIGN_Index2/'
-    completed_domains_file = 'finished_domains_updated_4.txt'
-    domains_file_1 = '/mnt/projects/qanon_proj/RobustCrawl/needed_domains_to_update2.txt'
-    domains_file_2 = '/mnt/projects/qanon_proj/CommonCrawl/completed_domain_gotten_new3.txt'
-    domains_file_3 = '/mnt/projects/qanon_proj/CommonCrawl/completed_domain_gotten_new5.txt'
+    indexed_domains_path = 'DomainIndices/'
+    completed_domains_file = 'finished_domains.txt'
+    domains_file_1 = 'domain_files_to_process.txt'
+
 
     # Load domains to process
     indexed_domains = set(os.listdir(indexed_domains_path))
-    needed_domains = load_domains(domains_file_1)
-    completed_domains = load_domains(domains_file_2)
-    completed_domains.update(load_domains(domains_file_3))
-    all_domains_to_process = list(needed_domains.union(completed_domains))
+    needed_domains = list(load_domains(domains_file_1))
 
     # Shuffle domains for randomness
-    random.shuffle(all_domains_to_process)
+    random.shuffle(needed_domains)
 
     # Retrieve processed domains from the log
     processed_domains = get_processed_domains(completed_domains_file)
