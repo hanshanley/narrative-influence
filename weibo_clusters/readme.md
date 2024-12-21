@@ -1,4 +1,4 @@
-# Statistics and Information about our discovered Weibo Clusters
+# Statistics and Information about our Discovered Weibo Clusters
 
 We provide information about some of the top Weibo narrative clusters. We provide information for narrative clusters that had similar articles or narratives amongst our set of Chinese, US, Russian, and Ukrainian websites, providing their  LLaMa 3.1 summaries of the contents and PMI information.
 
