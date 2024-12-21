@@ -23,6 +23,18 @@ We provide cluster information, LLaMa-3 summaries of the contents of each cluste
 To identify paraphrases between different languages, we initially utilize the MP-Net paraphrase transformer (https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) and subsequently utilize three trained models that utilize  Machine Translation (WMT-19) dataset of news commentary bitexts in Chinese and English, and in Chinese and Russian. We provide the architecture and weight for these models in the `paraphrasing_models` folder. 
 
 
+## Citing the paper
+If our lists of code or resources are useful for your own research :
+```
+ @article{hanley2024across,
+  title={Across the Firewall: Foreign Media's Role in Shaping Chinese Social Media Narratives on the Russo-Ukrainian War},
+  author={Hanley, Hans WA and Lu, Yingdan and Pan, Jennifer},
+  journal={Proceedings of the National Academy of Sciences},
+  publisher={National Acad Sciences}
+}
+```
+
+
 ## License and Copyright
 
 Copyright 2024 The Board of Trustees of The Leland Stanford Junior University
