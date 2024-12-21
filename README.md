@@ -23,7 +23,7 @@ We provide cluster information, LLaMa-3 summaries of the contents of each cluste
 To identify paraphrases between different languages, we initially utilize the MP-Net paraphrase transformer (https://huggingface.co/sentence-transformers/paraphrase-multilingual-mpnet-base-v2) and subsequently utilize three trained models that utilize  Machine Translation (WMT-19) dataset of news commentary bitexts in Chinese and English, and in Chinese and Russian. We provide the architecture and weight for these models in the `paraphrasing_models` folder. 
 
 
-## Citing the paper
+## Citing our paper
 If our code or resources are useful for your own research, please cite our work using the following BibTex:
 ```
 @article{hanley2024across,
