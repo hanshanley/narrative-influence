@@ -24,9 +24,9 @@ To identify paraphrases between different languages, we initially utilize the MP
 
 
 ## Citing the paper
-If our lists of code or resources are useful for your own research :
+If our lists of code or resources are useful for your own research, please cite our work using the following BibTex:
 ```
- @article{hanley2024across,
+@article{hanley2024across,
   title={Across the Firewall: Foreign Media's Role in Shaping Chinese Social Media Narratives on the Russo-Ukrainian War},
   author={Hanley, Hans WA and Lu, Yingdan and Pan, Jennifer},
   journal={Proceedings of the National Academy of Sciences},
