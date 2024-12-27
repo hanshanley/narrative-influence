@@ -1527,8 +1527,6 @@ cspfocus.cn
 xuexi.com.cn
 scdaily.com
 chyangwa.net
-cnd.org
-secretchina.com
 bangladeshembassy.com.cn
 leadingnews.cn
 shijiexinwen.com.cn
@@ -2498,3 +2496,5 @@ alljournal.com.cn
 chinajournal.net.cn
 chinastory.cn
 mingdaopress.cn
+gxtvnews.com.cn
+hsdaily.cn
