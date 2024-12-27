@@ -1,5 +1,5 @@
-thesouthern.com
 postbulletin.com
+thesouthern.com
 yahoo.com
 thebigriddle.com
 who13.com
@@ -28,6 +28,7 @@ aina.org
 cbslocal.com
 time.com
 rand.org
+tharawat-magazine.com
 wkbw.com
 rogue-nation3.com
 sfgate.com
@@ -35,7 +36,6 @@ stoppingsocialism.com
 splinternews.com
 airforcetimes.com
 sctimes.com
-tharawat-magazine.com
 lincolncourier.com
 deseret.com
 newsweek.com
@@ -720,7 +720,7 @@ wearyourvoicemag.com
 news-leader.com
 readsludge.com
 sourcepolitics.com
-abcnews.go.com
+go.com
 wehuntedthemammoth.com
 podcastufo.com
 usanewstoday.com
@@ -1858,6 +1858,7 @@ madison.com
 winchesterstar.com
 911sharethetruth.com
 wdam.com
+russian-bazaar.com
 theragingpatriot.org
 latintimes.com
 hrw.org
@@ -2231,7 +2232,6 @@ salina.com
 nowentertainment.net
 wlfi.com
 teaparty.org
-google.com
 askingangels.com
 vdare.com
 thecalifornian.com
