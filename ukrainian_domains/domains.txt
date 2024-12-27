@@ -537,6 +537,7 @@ radiomaria.org.ua
 easterneurope-ebm.in.ua
 tods-blog.com.ua
 myizyum.in.ua
+intell.in.ua
 club-fiat.org.ua
 ujhajtas.net.ua
 c-elysee-club.com.ua
@@ -548,7 +549,6 @@ novaposhta.ua
 schastye-life.lg.ua
 newsone.ua
 ua-news.in.ua
-freebooks.com.ua
 times.cv.ua
 jmil.com.ua
 reporter.zt.ua
@@ -618,6 +618,7 @@ new-times.in.ua
 nas.zp.ua
 ternopil24.com.ua
 re-journal.org.ua
+gazpostach.od.uaba
 sg.vn.ua
 24.vn.ua
 lecon.com.ua
@@ -1369,7 +1370,6 @@ topgeek.com.ua
 kordon.org.ua
 nano.com.ua
 rss.net.ua
-everybodycan.com.ua
 atv-forum.com.ua
 brightmedia.ua
 pravoisuspilstvo.org.ua
@@ -1914,7 +1914,6 @@ zaxid.net
 lutsk-trend.in.ua
 tyachivnews.in.ua
 gorozhanin.com.ua
-gazpostach.od.ua
 sau.in.ua
 scormag.vn.ua
 24news.kiev.ua
@@ -1927,6 +1926,7 @@ zavtra.in.ua
 samsungshop.com.ua
 fakt.org.ua
 rp.rv.ua
+mediahouse.com.ua
 armiya.com.ua
 tie.in.ua
 kiev-itservice.com.ua
@@ -2013,6 +2013,7 @@ kaletnik.com.ua
 browncat.net.ua
 uanews.kharkiv.ua
 blogchain.com.ua
+hsa.org.ua
 keepgoing.com.ua
 playboy.ua
 metro.donetsk.ua
@@ -2167,6 +2168,7 @@ goldenpages.rv.ua
 volodymyrmedia.com.ua
 newsmarket.com.ua
 gocamps.com.ua
+today.org.ua
 uzbekistan.org.ua
 home-help.com.ua
 openmind.com.ua
@@ -2247,6 +2249,7 @@ ucf.in.ua
 smorodskiy-advokat.kharkov.ua
 aspi.com.ua
 newscity.zp.ua
+globalevents.lviv.ua
 m-church.org.ua
 infonavigator.com.ua
 gazeta.ua
@@ -2285,7 +2288,6 @@ metinfo.dp.ua
 info.uz.ua
 chevrolet-club.com.ua
 kpel.kiev.ua
-codeclub.com.ua
 svoboda.ua
 ntktv.ua
 zvyagel.com.ua
