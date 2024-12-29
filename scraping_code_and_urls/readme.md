@@ -1,6 +1,7 @@
 # URLs to scrape and Scraping code
 
-The URLs utilized in this project can be downloaded from here (we remove URLs that just point to comments [i.e. #comments] or particular points in a given page.)https://drive.google.com/file/d/1IjCUZqDMhCh4hHI2QKU_rEd1yZOsvtbK/view?usp=sharing
+The URLs utilized in this project can be downloaded from here (we remove URLs that just point to comments [i.e. #comments] or particular points in a given page): 
+https://drive.google.com/file/d/1IjCUZqDMhCh4hHI2QKU_rEd1yZOsvtbK/view?usp=sharing
 
 For this project, we initially used the Newspaper3k Python library (https://newspaper.readthedocs.io/en/latest/) to scrape some URLs and extract HTML from documents. We recommend that you utilize the Python Newspaper4k (https://github.com/AndyTheFactory/newspaper4k) library to scrape and extract article news data from our list of URLs.
 
