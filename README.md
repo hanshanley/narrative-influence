@@ -27,12 +27,18 @@ To identify paraphrases between different languages, we initially utilize the MP
 ## Citing our paper
 If our code or resources are useful for your own research, please cite our work using the following BibTex:
 ```
-@article{hanley2024across,
-  title={Across the Firewall: Foreign Media's Role in Shaping Chinese Social Media Narratives on the Russo-Ukrainian War},
-  author={Hanley, Hans WA and Lu, Yingdan and Pan, Jennifer},
-  journal={Proceedings of the National Academy of Sciences},
-  publisher={National Acad Sciences}
-}
+@article{
+doi:10.1073/pnas.2420607122,
+author = {Hans W. A. Hanley  and Yingdan Lu  and Jennifer Pan },
+title = {Across the firewall: Foreign media’s role in shaping Chinese social media narratives on the Russo-Ukrainian War},
+journal = {Proceedings of the National Academy of Sciences},
+volume = {122},
+number = {1},
+pages = {e2420607122},
+year = {2025},
+doi = {10.1073/pnas.2420607122},
+URL = {https://www.pnas.org/doi/abs/10.1073/pnas.2420607122},
+eprint = {https://www.pnas.org/doi/pdf/10.1073/pnas.2420607122},
 ```
 
 
