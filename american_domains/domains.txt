@@ -4,7 +4,6 @@ dailynorthwestern.com
 strategypage.com
 keyt.com
 ufoholic.com
-aawsat.com
 dominionpost.com
 greatawakeningglobal.com
 conservativeammo.com
@@ -33,6 +32,7 @@ sciencing.com
 pollhype.com
 blackamericaweb.com
 rightwingwatch.org
+jellyfish.news
 consortiumnews.com
 alienresistance.org
 arthouse5d.co
@@ -92,7 +92,6 @@ thesorrentino.com
 livemint.com
 alienlovebite.com
 politicsthatwork.com
-elnuevodia.com
 westernmassnews.com
 c4ss.org
 islamicanews.com
@@ -271,7 +270,6 @@ fwweekly.com
 foreignpolicyjournal.com
 dailybulletin.com
 tyt.com
-wordpress.co
 hrc.org
 newsbusters.org
 wifr.com
@@ -772,7 +770,6 @@ berkeleyside.com
 unionleader.com
 greatawakeningmap.co
 redstatenation.com
-egypttoday.com
 thenewstribune.com
 fox35orlando.com
 cleveland19.com
@@ -919,7 +916,6 @@ theproudliberal.org
 wfla.com
 brightside.me
 kcrg.com
-mexiconewsdaily.com
 hrw.org
 mydailysentinel.com
 nationalaffairs.com
@@ -1007,7 +1003,6 @@ wkbw.com
 nowentertainment.net
 democrats.org
 apnews.com
-thecanadianpress.com
 townhall.com
 americandigitalnews.com
 gatestoneinstitute.org
@@ -1091,7 +1086,7 @@ buzzsawpolitics.com
 foxrichmond.com
 freep.com
 theqanons.com
-aireenvironmental.wordpress.co
+aireenvironmental.wordpress.com
 attn.com
 debunkingskeptics.com
 hamiltonsmotel.wordpress.com
@@ -1200,7 +1195,6 @@ juancole.com
 thegatewaypundit.com
 justthenews.com
 alieninterview.org
-deplorablekel.com
 wjla.com
 yoursun.com
 dailyprogress.com
@@ -1250,7 +1244,7 @@ kuow.org
 wbaltv.com
 unz.com
 frankspeech.com
-rightsfreedoms.wordpress.co
+rightsfreedoms.wordpress.com
 pantagraph.com
 courierpress.com
 therooster.com
@@ -1576,15 +1570,15 @@ bellingcat.com
 gopdailybrief.com
 liberaldarkness.com
 kfdm.com
-freightforwardernsw.wordpress.co
+freightforwardernsw.wordpress.com
 alec.org
 punishdem1776.com
 wthr.com
 wamu.org
 alienscientist.com
-diamondzultimatehealth.wordpress.co
+diamondzultimatehealth.wordpress.com
 uncoverdc.com
-thenextrecession.wordpress.co
+thenextrecession.wordpress.com
 columbusfreepress.com
 homelandsecuritynewswire.com
 bluntforcetruth.com
@@ -1606,7 +1600,7 @@ fairobserver.com
 polygon.com
 lexingtoninstitute.org
 crfb.org
-entransporte.wordpress.co
+entransporte.wordpress.com
 newarkpostonline.com
 kvia.com
 wcti12.com
@@ -2377,7 +2371,6 @@ dustinnemos.com
 17plus.weebly.com
 kearneyhub.com
 breakingnews365.net
-beholdisrael.org
 ruthinstitute.org
 ncsl.org
 idahostatesman.com
@@ -2481,6 +2474,12 @@ wjhl.com
 law360.com
 countryliving.com
 911truthnews.com
+craigstewartus.wordpress.com
+cnnsofake.news
+noraclarckebooksblogs.wordpress.com
+ashtonthomasblog.wordpress.com
+f1frogblog.wordpress.com
+thegreatawakening350915434.wordpress.com
 presscalifornia.com
 freespeech.org
 heraldsun.com
@@ -2498,3 +2497,4 @@ conservapedia.com
 libraryofprogg.wordpress.com
 postandcourier.com
 chiefio.wordpress.com
+summit.news
