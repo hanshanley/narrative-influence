@@ -1,6 +1,6 @@
 elkodaily.com
-nptelegraph.com
 kron4.com
+nptelegraph.com
 drjudywood.com
 amimagazine.org
 knightstemplarorder.com
@@ -129,9 +129,9 @@ worldtribune.com
 koamnewsnow.com
 vaxxter.com
 aclu.org
-newshounds.us
 wsbt.com
 wri.org
+newshounds.us
 offgridsurvival.com
 exeterufofestival.org
 rooseveltinstitute.org
@@ -517,6 +517,7 @@ thegreatawakeningsummit.com
 intrepidreport.com
 telegram.com
 northjersey.com
+federalefifthcolumnist.wordpress.com
 mauinews.com
 11alive.com
 thegreatawakening350915434.wordpress.com
@@ -1000,10 +1001,10 @@ freedom.news
 washingtonblade.com
 newrepublic.com
 metrotimes.com
-attn.com
-academia.org
 affinitymagazine.us
 caldronpool.com
+attn.com
+academia.org
 democraticunderground.com
 miamiherald.com
 conservativeinstitute.org
@@ -1060,7 +1061,6 @@ spectrumnews1.com
 theskimm.com
 kunstler.com
 thepatriotnation.net
-canadiancovidcarealliance.org
 thepeoplescube.com
 wearechange.org
 thebeardedpatriot.com
