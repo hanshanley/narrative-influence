@@ -6,6 +6,8 @@ Email hhanley@cs.stanford.edu for any questions about the code or implementation
 
 There is a widespread perception that China's digital censorship distances its people from the global internet, and the Chinese Communist Party, through state-controlled media, is the main gatekeeper of information about foreign affairs. Our analysis of narratives about the Russo-Ukrainian War circulating on the Chinese social media platform Weibo challenges this view. Comparing narratives on Weibo with 8.26 million unique news articles from 2,500 of some of the most trafficked websites in China, Russia, Ukraine, and the US (totaling 10,000 sites), we find that Russian news websites published more articles matching narratives found on  Weibo than news websites from China, Ukraine, or the US. Similarly, a plurality of Weibo narratives were most associated with narratives found on Russian news websites while less than ten percent were most associated with narratives from Chinese news sites. Narratives later appearing on Weibo were more likely to first appear on Russian rather than Chinese, Ukrainian, or US news websites, and Russian websites were highly influential for narratives appearing on Weibo. Altogether, these results show that Chinese state media was not the main gatekeeper of information about Russia's invasion of Ukraine for Weibo users. 
 
+https://www.pnas.org/doi/10.1073/pnas.2420607122
+
 ![new_clustering_documents4 drawio (1)-1](https://github.com/user-attachments/assets/d18f603e-7e02-46be-aa22-d7aa7d382040)
 
 
